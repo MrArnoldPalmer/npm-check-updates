@@ -1,13 +1,13 @@
 import _ from 'lodash'
 import { satisfies } from 'semver'
-import getPeerDependenciesFromRegistry from './getPeerDependenciesFromRegistry'
-import queryVersions from './queryVersions'
-import upgradeDependencies from './upgradeDependencies'
-import keyValueBy from './keyValueBy'
-import { Index } from '../types/IndexType'
-import { Options } from '../types/Options'
-import { VersionResult } from '../types/VersionResult'
-import { VersionSpec } from '../types/VersionSpec'
+import getPeerDependenciesFromRegistry from './getPeerDependenciesFromRegistry.js'
+import queryVersions from './queryVersions.js'
+import upgradeDependencies from './upgradeDependencies.js'
+import keyValueBy from './keyValueBy.js'
+import { Index } from '../types/IndexType.js'
+import { Options } from '../types/Options.js'
+import { VersionResult } from '../types/VersionResult.js'
+import { VersionSpec } from '../types/VersionSpec.js'
 
 /**
  * Returns an 3-tuple of upgradedDependencies, their latest versions and the resulting peer dependencies.

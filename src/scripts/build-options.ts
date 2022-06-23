@@ -1,6 +1,6 @@
 import fs from 'fs'
 import spawn from 'spawn-please'
-import cliOptions, { CLIOption } from '../cli-options'
+import cliOptions, { CLIOption } from '../cli-options.js'
 
 /** Extracts CLI options from the bin output. */
 const readOptions = async () => {

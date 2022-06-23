@@ -1,6 +1,6 @@
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
-import * as npm from '../../../src/package-managers/npm'
+import * as npm from '../../../src/package-managers/npm.js'
 
 chai.should()
 chai.use(chaiAsPromised)

@@ -1,13 +1,13 @@
 import _ from 'lodash'
 import cint from 'cint'
 import { parseRange } from 'semver-utils'
-import * as versionUtil from '../version-util'
-import getPreferredWildcard from './getPreferredWildcard'
-import isUpgradeable from './isUpgradeable'
-import { Index } from '../types/IndexType'
-import { Options } from '../types/Options'
-import { Version } from '../types/Version'
-import { VersionSpec } from '../types/VersionSpec'
+import * as versionUtil from '../version-util.js'
+import getPreferredWildcard from './getPreferredWildcard.js'
+import isUpgradeable from './isUpgradeable.js'
+import { Index } from '../types/IndexType.js'
+import { Options } from '../types/Options.js'
+import { Version } from '../types/Version.js'
+import { VersionSpec } from '../types/VersionSpec.js'
 
 interface MappedDependencies {
   current: VersionSpec

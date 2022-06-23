@@ -1,5 +1,5 @@
 import chai from 'chai'
-import getPeerDependenciesFromRegistry from '../src/lib/getPeerDependenciesFromRegistry'
+import getPeerDependenciesFromRegistry from '../src/lib/getPeerDependenciesFromRegistry.js'
 
 chai.should()
 process.env.NCU_TESTS = 'true'

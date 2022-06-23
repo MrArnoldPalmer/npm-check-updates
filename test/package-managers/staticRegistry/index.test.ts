@@ -1,6 +1,6 @@
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
-import * as staticRegistry from '../../../src/package-managers/staticRegistry'
+import * as staticRegistry from '../../../src/package-managers/staticRegistry.js'
 
 chai.should()
 chai.use(chaiAsPromised)

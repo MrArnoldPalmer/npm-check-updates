@@ -2,8 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import { URL } from 'url'
 import hostedGitInfo from 'hosted-git-info'
-import { PackageFile } from '../types/PackageFile'
-import { PackageFileRepository } from '../types/PackageFileRepository'
+import { PackageFile } from '../types/PackageFile.js'
+import { PackageFileRepository } from '../types/PackageFileRepository.js'
 
 // extract the defaultBranchPath so it can be stripped in the final output
 const defaultBranchPath = hostedGitInfo

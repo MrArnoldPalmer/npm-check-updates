@@ -1,5 +1,5 @@
 import chai from 'chai'
-import getRepoUrl from '../src/lib/getRepoUrl'
+import getRepoUrl from '../src/lib/getRepoUrl.js'
 
 const should = chai.should()
 

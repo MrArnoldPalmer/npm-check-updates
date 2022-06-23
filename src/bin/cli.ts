@@ -3,10 +3,10 @@
 import { program } from 'commander'
 import _ from 'lodash'
 import updateNotifier from 'update-notifier'
-import ncu from '../index'
+import ncu from '../index.js'
 import pkg from '../../package.json'
-import cliOptions, { cliOptionsMap } from '../cli-options'
-import getNcuRc from '../lib/getNcuRc'
+import cliOptions, { cliOptionsMap } from '../cli-options.js'
+import getNcuRc from '../lib/getNcuRc.js'
 
 // check if a new version of ncu is available and print an update notification
 const notifier = updateNotifier({ pkg })

@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import Table from 'cli-table'
 import chalk from 'chalk'
-import { Index } from './types/IndexType'
+import { Index } from './types/IndexType.js'
 
 export interface CLIOption<T = any> {
   arg?: string

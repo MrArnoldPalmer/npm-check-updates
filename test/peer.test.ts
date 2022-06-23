@@ -3,8 +3,8 @@ import rimraf from 'rimraf'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import chaiString from 'chai-string'
-import * as ncu from '../src/'
-import spawnNpm from '../src/package-managers/npm'
+import * as ncu from '../src/index.js'
+import spawnNpm from '../src/package-managers/npm.js'
 
 chai.use(chaiAsPromised)
 chai.use(chaiString)

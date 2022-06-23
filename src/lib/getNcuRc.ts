@@ -2,7 +2,7 @@ import path from 'path'
 import _ from 'lodash'
 import chalk from 'chalk'
 import { rcFile } from 'rc-config-loader'
-import { cliOptionsMap } from '../cli-options'
+import { cliOptionsMap } from '../cli-options.js'
 
 interface Options {
   configFileName?: string

@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import cint from 'cint'
-import { Index } from '../types/IndexType'
-import { WILDCARDS } from '../version-util'
+import { Index } from '../types/IndexType.js'
+import { WILDCARDS } from '../version-util.js'
 
 /**
  *

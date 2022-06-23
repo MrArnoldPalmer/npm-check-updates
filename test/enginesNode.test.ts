@@ -1,7 +1,7 @@
 import chai from 'chai'
-import * as ncu from '../src/'
-import { Index } from '../src/types/IndexType'
-import { VersionSpec } from '../src/types/VersionSpec'
+import * as ncu from '../src/index.js'
+import { Index } from '../src/types/IndexType.js'
+import { VersionSpec } from '../src/types/VersionSpec.js'
 
 chai.should()
 process.env.NCU_TESTS = 'true'

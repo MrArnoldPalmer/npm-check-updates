@@ -1,5 +1,5 @@
 import chai from 'chai'
-import getIgnoredUpgrades from '../src/lib/getIgnoredUpgrades'
+import getIgnoredUpgrades from '../src/lib/getIgnoredUpgrades.js'
 
 chai.should()
 process.env.NCU_TESTS = 'true'

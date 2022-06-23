@@ -1,5 +1,5 @@
 import chai from 'chai'
-import upgradeDependencies from '../src/lib/upgradeDependencies'
+import upgradeDependencies from '../src/lib/upgradeDependencies.js'
 
 chai.should()
 process.env.NCU_TESTS = 'true'

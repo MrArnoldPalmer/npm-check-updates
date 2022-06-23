@@ -1,8 +1,8 @@
 /** This file is generated automatically from the options specified in /src/cli-options.ts. Do not edit manually. Run "npm run build:options" to build. */
 
-import { FilterFunction } from './FilterFunction'
-import { PackageFile } from './PackageFile'
-import { TargetFunction } from './TargetFunction'
+import { FilterFunction } from './FilterFunction.js'
+import { PackageFile } from './PackageFile.js'
+import { TargetFunction } from './TargetFunction.js'
 
 /** Options that can be given on the CLI or passed to the ncu module to control all behavior. */
 export interface RunOptions {

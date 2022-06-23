@@ -1,6 +1,7 @@
 {
   "name": "npm-check-updates",
   "version": "14.1.0",
+  "type": "module",
   "author": "Tomas Junnonen <tomas1@gmail.com>",
   "license": "Apache-2.0",
   "contributors": [
@@ -22,9 +23,9 @@
     "ncu"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=14.16"
   },
-  "main": "build/src/index.js",
+  "exports": "./build/src/index.js",
   "scripts": {
     "build": "npm run build:ts && npm run build:options",
     "build:ts": "tsc",
@@ -81,7 +82,7 @@
     "semver-utils": "^1.1.4",
     "source-map-support": "^0.5.21",
     "spawn-please": "^1.0.0",
-    "update-notifier": "^5.1.0",
+    "update-notifier": "^6.0.0",
     "yaml": "^2.1.1"
   },
   "devDependencies": {

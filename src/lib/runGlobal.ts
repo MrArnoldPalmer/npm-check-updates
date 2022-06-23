@@ -1,10 +1,10 @@
 import _ from 'lodash'
 import Chalk from 'chalk'
-import { print, printJson, printUpgrades } from '../logging'
-import getInstalledPackages from './getInstalledPackages'
-import upgradePackageDefinitions from './upgradePackageDefinitions'
-import { Index } from '../types/IndexType'
-import { Options } from '../types/Options'
+import { print, printJson, printUpgrades } from '../logging.js'
+import getInstalledPackages from './getInstalledPackages.js'
+import upgradePackageDefinitions from './upgradePackageDefinitions.js'
+import { Index } from '../types/IndexType.js'
+import { Options } from '../types/Options.js'
 
 /** Checks global dependencies for upgrades. */
 async function runGlobal(options: Options): Promise<Index<string> | void> {

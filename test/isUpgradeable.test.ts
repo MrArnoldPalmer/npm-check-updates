@@ -1,5 +1,5 @@
 import chai from 'chai'
-import isUpgradeable from '../src/lib/isUpgradeable'
+import isUpgradeable from '../src/lib/isUpgradeable.js'
 
 chai.should()
 process.env.NCU_TESTS = 'true'

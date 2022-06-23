@@ -1,6 +1,6 @@
-import { Index } from './IndexType'
-import { PackageFileRepository } from './PackageFileRepository'
-import { VersionSpec } from './VersionSpec'
+import { Index } from './IndexType.js'
+import { PackageFileRepository } from './PackageFileRepository.js'
+import { VersionSpec } from './VersionSpec.js'
 
 /** The relevant bits of a parsed package.json file. */
 export interface PackageFile {

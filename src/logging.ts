@@ -4,14 +4,14 @@
 
 import Table from 'cli-table'
 import Chalk from 'chalk'
-import { colorizeDiff, isGithubUrl, getGithubUrlTag, isNpmAlias, parseNpmAlias, partChanged } from './version-util'
-import getRepoUrl from './lib/getRepoUrl'
-import keyValueBy from './lib/keyValueBy'
-import { IgnoredUpgrade } from './types/IgnoredUpgrade'
-import { Index } from './types/IndexType'
-import { Options } from './types/Options'
-import { Version } from './types/Version'
-import { VersionSpec } from './types/VersionSpec'
+import { colorizeDiff, isGithubUrl, getGithubUrlTag, isNpmAlias, parseNpmAlias, partChanged } from './version-util.js'
+import getRepoUrl from './lib/getRepoUrl.js'
+import keyValueBy from './lib/keyValueBy.js'
+import { IgnoredUpgrade } from './types/IgnoredUpgrade.js'
+import { Index } from './types/IndexType.js'
+import { Options } from './types/Options.js'
+import { Version } from './types/Version.js'
+import { VersionSpec } from './types/VersionSpec.js'
 
 // maps string levels to numeric levels
 const logLevels = {

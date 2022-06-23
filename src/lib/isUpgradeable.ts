@@ -1,6 +1,6 @@
-import { Version } from '../types/Version'
-import { VersionSpec } from '../types/VersionSpec'
-import { fixPseudoVersion, stringify, isWildCard, isComparable } from '../version-util'
+import { Version } from '../types/Version.js'
+import { VersionSpec } from '../types/VersionSpec.js'
+import { fixPseudoVersion, stringify, isWildCard, isComparable } from '../version-util.js'
 import * as semver from 'semver'
 import semverutils from 'semver-utils'
 

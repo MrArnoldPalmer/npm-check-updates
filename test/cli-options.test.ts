@@ -1,5 +1,5 @@
 import chai from 'chai'
-import cliOptions from '../src/cli-options'
+import cliOptions from '../src/cli-options.js'
 
 chai.should()
 

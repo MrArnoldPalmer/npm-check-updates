@@ -1,13 +1,13 @@
 import _ from 'lodash'
 import fs from 'fs'
 import Chalk from 'chalk'
-import cliOptions from '../cli-options'
-import programError from './programError'
-import getPackageFileName from './getPackageFileName'
-import { print } from '../logging'
-import { Options } from '../types/Options'
-import { RunOptions } from '../types/RunOptions'
-import { Target } from '../types/Target'
+import cliOptions from '../cli-options.js'
+import programError from './programError.js'
+import getPackageFileName from './getPackageFileName.js'
+import { print } from '../logging.js'
+import { Options } from '../types/Options.js'
+import { RunOptions } from '../types/RunOptions.js'
+import { Target } from '../types/Target.js'
 
 /** Initializes, validates, sets defaults, and consolidates program options. */
 function initOptions(runOptions: RunOptions, { cli }: { cli?: boolean } = {}): Options {

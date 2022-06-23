@@ -1,2 +1,2 @@
 // add to tsconfig compilerOptions.paths
-declare module 'libnpmconfig'
+declare module 'libnpmconfig';

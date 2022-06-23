@@ -1,13 +1,13 @@
 import Chalk from 'chalk'
 import prompts, { PromptObject } from 'prompts'
 import { satisfies } from 'semver'
-import { print, printUpgrades, toDependencyTable } from '../logging'
-import keyValueBy from '../lib/keyValueBy'
-import { partChanged } from '../version-util'
-import { Index } from '../types/IndexType'
-import { Options } from '../types/Options'
-import { Version } from '../types/Version'
-import { VersionSpec } from '../types/VersionSpec'
+import { print, printUpgrades, toDependencyTable } from '../logging.js'
+import keyValueBy from '../lib/keyValueBy.js'
+import { partChanged } from '../version-util.js'
+import { Index } from '../types/IndexType.js'
+import { Options } from '../types/Options.js'
+import { Version } from '../types/Version.js'
+import { VersionSpec } from '../types/VersionSpec.js'
 
 /**
  * @returns String safe for use in `new RegExp()`

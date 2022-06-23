@@ -9,14 +9,14 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "lib": ["es2019"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "node16",
+    "moduleResolution": "node16",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "paths": {
       "cint": ["./src/types/cint"],
-      "libnpmconfig": ["./src/types/libnpmconfig"],
-      "spawn-please": ["./src/types/spawn-please"]
+      "libnpmconfig": ["./src/types/libnpmconfig.d.ts"],
+      "spawn-please": ["./src/types/spawn-please.d.ts"]
     },
     "resolveJsonModule": true,
     "outDir": "./build",

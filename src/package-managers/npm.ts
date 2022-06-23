@@ -6,23 +6,23 @@ import fs from 'fs'
 import semver from 'semver'
 import spawn from 'spawn-please'
 import pacote from 'pacote'
-import memoize from 'fast-memoize'
-import libnpmconfig from '../lib/libnpmconfig'
-import * as versionUtil from '../version-util'
-import { print } from '../logging'
-import { GetVersion } from '../types/GetVersion'
-import { Index } from '../types/IndexType'
-import { Options } from '../types/Options'
-import { NpmOptions } from '../types/NpmOptions'
-import { Packument } from '../types/Packument'
-import { Version } from '../types/Version'
-import { VersionSpec } from '../types/VersionSpec'
+import { default as memoize } from 'fast-memoize'
+import * as libnpmconfig from '../lib/libnpmconfig/index.js'
+import * as versionUtil from '../version-util.js'
+import { print } from '../logging.js'
+import { GetVersion } from '../types/GetVersion.js'
+import { Index } from '../types/IndexType.js'
+import { Options } from '../types/Options.js'
+import { NpmOptions } from '../types/NpmOptions.js'
+import { Packument } from '../types/Packument.js'
+import { Version } from '../types/Version.js'
+import { VersionSpec } from '../types/VersionSpec.js'
 import {
   allowDeprecatedOrIsNotDeprecated,
   allowPreOrIsNotPre,
   satisfiesNodeEngine,
   satisfiesPeerDependencies,
-} from './filters'
+} from './filters.js'
 
 const TIME_FIELDS = ['modified', 'created']
 

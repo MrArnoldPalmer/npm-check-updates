@@ -3,7 +3,7 @@ import path from 'path'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import chaiString from 'chai-string'
-import * as ncu from '../../src/'
+import * as ncu from '../../src/index.js'
 
 chai.should()
 chai.use(chaiAsPromised)

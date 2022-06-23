@@ -1,6 +1,6 @@
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
-import queryVersions from '../src/lib/queryVersions'
+import queryVersions from '../src/lib/queryVersions.js'
 
 chai.should()
 chai.use(chaiAsPromised)

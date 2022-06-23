@@ -1,13 +1,13 @@
 /** Fetches package metadata from Github tags. */
 
-import remoteGitTags from 'remote-git-tags'
+import { default as remoteGitTags } from 'remote-git-tags'
 import parseGithubUrl from 'parse-github-url'
 import semver from 'semver'
-import * as versionUtil from '../version-util'
-import { print } from '../logging'
-import { Options } from '../types/Options'
-import { VersionSpec } from '../types/VersionSpec'
-import { VersionLevel } from '../types/VersionLevel'
+import * as versionUtil from '../version-util.js'
+import { print } from '../logging.js'
+import { Options } from '../types/Options.js'
+import { VersionSpec } from '../types/VersionSpec.js'
+import { VersionLevel } from '../types/VersionLevel.js'
 
 /** Gets remote versions sorted. */
 const getSortedVersions = async (name: string, declaration: VersionSpec, options: Options) => {

@@ -2,9 +2,9 @@ import _ from 'lodash'
 import { and } from 'fp-and-or'
 import minimatch from 'minimatch'
 import { SemVer, parseRange } from 'semver-utils'
-import { FilterRejectPattern } from '../types/FilterRejectPattern'
-import { Maybe } from '../types/Maybe'
-import { VersionSpec } from '../types/VersionSpec'
+import { FilterRejectPattern } from '../types/FilterRejectPattern.js'
+import { Maybe } from '../types/Maybe.js'
+import { VersionSpec } from '../types/VersionSpec.js'
 
 /**
  * Creates a filter function from a given filter string. Supports

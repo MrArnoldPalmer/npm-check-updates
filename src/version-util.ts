@@ -6,8 +6,8 @@ import chalk from 'chalk'
 import cint from 'cint'
 import semver from 'semver'
 import parseGithubUrl from 'parse-github-url'
-import { Maybe } from './types/Maybe'
-import { VersionLevel } from './types/VersionLevel'
+import { Maybe } from './types/Maybe.js'
+import { VersionLevel } from './types/VersionLevel.js'
 
 const VERSION_BASE_PARTS = ['major', 'minor', 'patch'] as VersionPart[]
 const VERSION_ADDED_PARTS = ['release', 'build'] as VersionPart[]

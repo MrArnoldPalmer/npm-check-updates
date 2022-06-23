@@ -1,9 +1,9 @@
 import fs from 'fs'
-import memoize from 'fast-memoize'
-import { GetVersion } from '../types/GetVersion'
-import { Version } from '../types/Version'
-import { Options } from '../types/Options'
-import { StaticRegistry } from '../types/StaticRegistry'
+import { default as memoize } from 'fast-memoize'
+import { GetVersion } from '../types/GetVersion.js'
+import { Version } from '../types/Version.js'
+import { Options } from '../types/Options.js'
+import { StaticRegistry } from '../types/StaticRegistry.js'
 
 /**
  * Returns registry object given a valid path

@@ -1,5 +1,5 @@
-import { print } from '../logging'
-import { Options } from '../types/Options'
+import { print } from '../logging.js'
+import { Options } from '../types/Options.js'
 
 /** Print an error. Exit the process if in CLI mode. */
 function programError(options: Options, message: string) {

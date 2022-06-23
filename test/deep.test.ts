@@ -2,9 +2,9 @@ import fs from 'fs'
 import path from 'path'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
-import * as ncu from '../src/'
+import * as ncu from '../src/index.js'
 import spawn from 'spawn-please'
-import mergeOptions from '../src/lib/mergeOptions'
+import mergeOptions from '../src/lib/mergeOptions.js'
 
 chai.should()
 chai.use(chaiAsPromised)

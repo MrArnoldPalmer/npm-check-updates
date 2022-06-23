@@ -1,6 +1,6 @@
-import packageManagers from '../package-managers'
-import { Maybe } from '../types/Maybe'
-import { PackageManager } from '../types/PackageManager'
+import packageManagers from '../package-managers/index.js'
+import { Maybe } from '../types/Maybe.js'
+import { PackageManager } from '../types/PackageManager.js'
 
 /**
  * Initialize the version manager with the given package manager.

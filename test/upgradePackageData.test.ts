@@ -1,5 +1,5 @@
 import chai from 'chai'
-import upgradePackageData from '../src/lib/upgradePackageData'
+import upgradePackageData from '../src/lib/upgradePackageData.js'
 
 chai.should()
 

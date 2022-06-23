@@ -3,11 +3,11 @@ import path from 'path'
 import chai from 'chai'
 import chaiAsPromised from 'chai-as-promised'
 import chaiString from 'chai-string'
-import * as ncu from '../src/'
-import { FilterFunction } from '../src/types/FilterFunction'
-import { TargetFunction } from '../src/types/TargetFunction'
-import { Index } from '../src/types/IndexType'
-import { Version } from '../src/types/Version'
+import * as ncu from '../src/index.js'
+import { FilterFunction } from '../src/types/FilterFunction.js'
+import { TargetFunction } from '../src/types/TargetFunction.js'
+import { Index } from '../src/types/IndexType.js'
+import { Version } from '../src/types/Version.js'
 
 chai.should()
 chai.use(chaiAsPromised)

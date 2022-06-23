@@ -5,10 +5,10 @@ import { promisify } from 'util'
 import Chalk from 'chalk'
 import findUp from 'find-up'
 import getstdin from 'get-stdin'
-import getPackageFileName from './getPackageFileName'
-import programError from './programError'
-import { print } from '../logging'
-import { Options } from '../types/Options'
+import getPackageFileName from './getPackageFileName.js'
+import programError from './programError.js'
+import { print } from '../logging.js'
+import { Options } from '../types/Options.js'
 
 // time to wait for stdin before printing a warning
 const stdinWarningTime = 5000

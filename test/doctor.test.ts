@@ -5,7 +5,7 @@ import chaiAsPromised from 'chai-as-promised'
 import spawn from 'spawn-please'
 import rimraf from 'rimraf'
 import stripAnsi from 'strip-ansi'
-import { cliOptionsMap } from '../src/cli-options'
+import { cliOptionsMap } from '../src/cli-options.js'
 
 chai.should()
 chai.use(chaiAsPromised)

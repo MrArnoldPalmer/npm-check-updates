@@ -1,9 +1,9 @@
-import { Index } from '../types/IndexType'
-import { PackageManager } from '../types/PackageManager'
-import * as npm from './npm'
-import * as yarn from './yarn'
-import * as gitTags from './gitTags'
-import * as staticRegistry from './staticRegistry'
+import { Index } from '../types/IndexType.js'
+import { PackageManager } from '../types/PackageManager.js'
+import * as npm from './npm.js'
+import * as yarn from './yarn.js'
+import * as gitTags from './gitTags.js'
+import * as staticRegistry from './staticRegistry.js'
 
 export default {
   npm,

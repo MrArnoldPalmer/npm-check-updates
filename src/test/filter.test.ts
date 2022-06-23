@@ -1,8 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import chai from 'chai'
-import ncu from '../'
-import { Index } from '../types/IndexType'
+import ncu from '../index.js'
+import { Index } from '../types/IndexType.js'
 
 chai.should()
 process.env.NCU_TESTS = 'true'
